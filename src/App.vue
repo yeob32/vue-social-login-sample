@@ -1,19 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <img
+      alt="Vue logo"
+      src="./assets/kakao_login_medium_narrow.png"
+      @click="kakaoLogin"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+  },
+  data: () => {
+    return {
+      client_id: process.env.VUE_APP_REST_API_KEY,
+      redirect_uri: process.env.VUE_APP_REDIRECT_URI,
+    };
+  },
+  methods: {
+    kakaoLogin() {
+      window.location.href = `https://kauth.kakao.com/oauth/authorize?client_id=${this.client_id}&redirect_uri=${this.redirect_uri}&response_type=code`;
+    },
+  },
+};
 </script>
 
 <style>
