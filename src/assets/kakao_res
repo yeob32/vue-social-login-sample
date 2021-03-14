@@ -10,7 +10,7 @@
   refresh_token_expires_in: 5183999,
   },
   me: {
-  id: 1660110891,
+  id: ########,
   connected_at: "2021-03-13T11:21:54Z",
   properties: {
   nickname: "김상엽",
@@ -28,7 +28,7 @@
   email_needs_agreement: false,
   is_email_valid: true,
   is_email_verified: true,
-  email: "yeop1201@daum.net",
+  email: "######",
   },
   },
   }
