@@ -1,0 +1,35 @@
+{
+  result: {
+  code: "zrZC-ieg5znNCEZILK_wiAOXhGWs8SgGDqXR7Yh62kztD0owqiRfDQ7_R7YCqUJPiiBp9Qo9dVsAAAF4L5iDnw",
+  token: {
+  access_token: "O0bEwVc-DP3kYn2zxcsO9MD8yDtkMF_1aqYPiwopyV8AAAF4L5iD1Q",
+  token_type: "bearer",
+  refresh_token: "fFTJMISh2i1TaDm2Q3rbJSgsiomu_1HcFSn_mAopyV8AAAF4L5iD1A",
+  expires_in: 21599,
+  scope: "account_email profile",
+  refresh_token_expires_in: 5183999,
+  },
+  me: {
+  id: 1660110891,
+  connected_at: "2021-03-13T11:21:54Z",
+  properties: {
+  nickname: "김상엽",
+  profile_image: "http://k.kakaocdn.net/dn/bFTmnp/btqvbPCJCnX/hALrVhbn73Af6pLbSZzhr1/img_640x640.jpg",
+  thumbnail_image: "http://k.kakaocdn.net/dn/bFTmnp/btqvbPCJCnX/hALrVhbn73Af6pLbSZzhr1/img_110x110.jpg",
+  },
+  kakao_account: {
+  profile_needs_agreement: false,
+  profile: {
+  nickname: "김상엽",
+  thumbnail_image_url: "http://k.kakaocdn.net/dn/bFTmnp/btqvbPCJCnX/hALrVhbn73Af6pLbSZzhr1/img_110x110.jpg",
+  profile_image_url: "http://k.kakaocdn.net/dn/bFTmnp/btqvbPCJCnX/hALrVhbn73Af6pLbSZzhr1/img_640x640.jpg",
+  },
+  has_email: true,
+  email_needs_agreement: false,
+  is_email_valid: true,
+  is_email_verified: true,
+  email: "yeop1201@daum.net",
+  },
+  },
+  }
+  }
